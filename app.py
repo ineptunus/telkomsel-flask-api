@@ -15,9 +15,9 @@ CORS(app)
 # LOAD MODEL
 # ══════════════════════════════════════════════════════════════
 
-model_sentiment = load_model("model_sentiment_cnn_lstm_fasttext.keras")
-model_hate      = load_model("model_hate_speech_cnn_lstm_fasttext.keras")
-model_sarcasm   = load_model("model_sarcasm_cnn_lstm_fasttext.keras")
+model_sentiment = load_model("model_sentiment_cnn_lstm_fasttext.keras", compile=False)
+model_hate      = load_model("model_hate_speech_cnn_lstm_fasttext.keras", compile=False)
+model_sarcasm   = load_model("model_sarcasm_cnn_lstm_fasttext.keras", compile=False)
 
 with open("model_sentiment_cnn_lstm_fasttext_tokenizer.pkl", "rb") as f:
     tokenizer_sentiment = pickle.load(f)

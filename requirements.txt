@@ -1,12 +1,12 @@
 flask==3.0.0
 flask-cors==4.0.0
 tensorflow==2.15.0
+keras==2.15.0
 numpy==1.26.0
 pandas==2.1.0
 gensim==4.3.2
 PySastrawi==1.2.0
 gunicorn==21.2.0
-mysqlclient==2.2.0
-flask-mysqldb==1.0.1
 python-dotenv==1.0.0
 openpyxl==3.1.2
+gdown==5.1.0
